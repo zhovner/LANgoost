@@ -41,12 +41,14 @@ https://github.com/pentestmonkey/gateway-finder
 ## Find proxies
 Scan LAN for 8080, 80, 1080, 3128 and so on for proxies
 
-## 53 port 
-Test raw connection from/to 53 TCP/UDP port
+## 53 port and other
+Some IPS's block's only 80 and 443 ports.
+Lets try to connect from/to 53 TCP/UDP port and other ports/protocols. 
 
 ## Firewall misconfiguration
 How to expoit?
+ToS flags? Fragmentation? 
 
-
-
+## ICMP and DNS tunnels
+When nothing else works
 
